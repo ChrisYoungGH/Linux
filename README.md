@@ -1,2 +1,2 @@
-# LinuxBug
+# Linux
 something about linux
