@@ -8,7 +8,17 @@ git config --global user.email "email"
 ```bash
 ssh-keygen -t rsa
 ```
+
+或者：
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
 复制 ~/.ssh/id_rsa.pub to github 到 SSH keys
+```bash
+clip < ~/.ssh/id_rsa.pub
+```
 
 ```bash
 git init
